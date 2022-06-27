@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+  text-decoration: none;
+  
+}
+
+html{
+  background: linear-gradient(191.84deg, #C53838 -6.32%, rgba(146, 43, 43, 0.991544) 23.96%, rgba(18, 9, 9, 0.97) 100.62%);
+  font-family: 'Poppins', sans-serif;
+  font-size: 62.5%;
+}
+
+body{
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 36rem;
+  height: 80rem;
+  
+  backdrop-filter: blur(25px);
+  border-radius: 5px;
+}
+
+.album {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  background: url(./assets/max.png) no-repeat;
+  width: 32.8rem;
+  height: 32.8rem;
+  border-radius: 5px;
+}
+
+.discricao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffff;
+
+}
+
+.discricao h2{
+  margin-top: 2.4rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.discricao p{
+  margin-top: 1.2rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.social{
+  margin: 4.8rem 6.50rem 1.2rem 0rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.social .dislike{
+margin: 0rem 6.5rem 0rem 6.5rem;
+}
+
+.social .share{
+  margin: 0rem 6.5rem 0rem 0rem;
+  }
+
+  .barra{
+    width: 26.4rem;
+    height: .4rem;
+    background: rgb(102, 102, 102);
+    border-radius: 5px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+  }
+
+  progress{
+    
+    height: .4rem;
+    width: 0%;
+  }
+
+  .ponto{
+    background: #ffff;
+    border-radius: 5px;
+    width: 1rem;
+    height: 1rem;
+    margin-left: -.4rem;
+  }
+
+  .tempo{
+    display: flex;
+    
+    align-items: center;
+    text-align: center;
+    justify-content:space-between;
+  }
+
+  .tempo p{
+    color: #ffff;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: -1.1rem  -3rem 2.75rem -3rem ;
+    padding: 0 -3.2rem 0 3.2rem;
+  }
+
+  .player{
+    display: flex;
+    align-items: center;
+  }
+  
+.player .shuffle{
+  cursor: pointer;
+  padding-right: 1.8rem;
+}
+
+.player .skip1{
+  cursor: pointer;
+  padding-right: 2.4rem;
+}
+
+.player .play{
+  cursor: pointer;
+  padding-right: 2.4rem;
+}
+
+.player .skip2{
+  cursor: pointer;
+  padding-right:1.8rem;
+}
+
+.player .repeat{
+  cursor: pointer;
+}
+
+.player .pause{
+    display: none;
+    cursor: pointer;
+    padding-right: 2.4rem;
+}
