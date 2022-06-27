@@ -1,4 +1,4 @@
 # playerMuisc
-# Stranger Things
-# Kate Bush - Running up that hill
-# Music
+Stranger Things
+Kate Bush - Running up that hill
+Music
