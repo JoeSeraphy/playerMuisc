@@ -35,7 +35,7 @@ body{
   display: flex;
   align-items:center;
   justify-content: center;
-  background: url(./assets/max.png) no-repeat;
+  
   width: 32.8rem;
   height: 32.8rem;
   border-radius: 5px;
@@ -129,7 +129,7 @@ margin: 0rem 6.5rem 0rem 6.5rem;
   padding-right: 1.8rem;
 }
 
-.player .skip1{
+.player .skipBack{
   cursor: pointer;
   padding-right: 2.4rem;
 }
@@ -139,7 +139,7 @@ margin: 0rem 6.5rem 0rem 6.5rem;
   padding-right: 2.4rem;
 }
 
-.player .skip2{
+.player .skipNext{
   cursor: pointer;
   padding-right:1.8rem;
 }
